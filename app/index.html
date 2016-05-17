@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="SISTEMA DEFAULT">
+		<meta name="keywords" content="">
+		<meta name="author" content="Lucas França">
+		<title>DEFAULT</title>
+		<link rel="stylesheet" href="bower_components/semantic/dist/semantic.min.css">
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body ng-app="app">
+		
+		<div id="loading" class="ui active dimmer" loading-dir>
+	        <div class="ui text loader">Carregando...</div>
+	    </div>
+
+		<div ng-show="user!=null" ng-include="'views/header.view.html'"></div>
+		<div ng-view></div>
+		<div ng-show="user!=null" ng-include="'views/footer.view.html'"></div>
+		
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/semantic/dist/semantic.min.js"></script>
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-route/angular-route.min.js"></script>
+		<script src="bower_components/angular-jwt/dist/angular-jwt.min.js"></script>
+		<script src="bower_components/a0-angular-storage/dist/angular-storage.min.js"></script>
+		<script src="app/config/app.js"></script>
+		<script src="app/config/constants.js"></script>
+		<script src="app/config/directives.js"></script>
+		<script src="app/config/filters.js"></script>
+		<script src="app/config/config.js"></script>
+		<script src="app/config/run.js"></script>
+		<script src="app/modules/includes/header/model.js"></script>
+		<script src="app/modules/includes/header/controller.js"></script>
+		<script src="app/modules/includes/footer/model.js"></script>
+		<script src="app/modules/includes/footer/controller.js"></script>
+		<script src="app/modules/home/model.js"></script>
+		<script src="app/modules/home/controller.js"></script>
+		<script src="app/modules/login/model.js"></script>
+		<script src="app/modules/login/controller.js"></script>
+	</body>
+</html>

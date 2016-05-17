@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Aplicação default",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasteleinfo/default-node-angular.git"
+  },
+  "author": "Lucas França <lucas.teleinfo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasteleinfo/default-node-angular/issues"
+  },
+  "homepage": "https://github.com/lucasteleinfo/default-node-angular#readme",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-uglify": "~1.0.1",
+    "grunt-contrib-cssmin": "~1.0.1",
+    "grunt-contrib-htmlmin": "~1.4.0",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-copy": "~1.0.0"
+  }
+}

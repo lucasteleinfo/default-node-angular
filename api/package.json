@@ -1,0 +1,36 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Sistema Default",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasteleinfo/default-node-angular.git"
+  },
+  "author": "Lucas França <lucas.teleinfo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasteleinfo/default-node-angular/issues"
+  },
+  "homepage": "https://github.com/lucasteleinfo/default-node-angular#readme",
+  "dependencies": {
+    "body-parser": "~1.15.0",
+    "express": "~4.13.4",
+    "jsonwebtoken": "~6.2.0",
+    "mongoose": "~4.4.14",
+    "sha1": "~1.1.1",
+    "q": "~1.4.1",
+    "nodemailer": "~2.4.1"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "engines": {
+    "node": "5.9.1"
+  }
+}

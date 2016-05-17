@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="SISTEMA DEFAULT">
+		<meta name="keywords" content="">
+		<meta name="author" content="Lucas França">
+		<title>DEFAULT</title>
+		<link rel="stylesheet" href="css/style.min.css">
+	</head>
+	<body ng-app="app">
+		
+		<div id="loading" class="ui active dimmer" loading-dir>
+	        <div class="ui text loader">Carregando...</div>
+	    </div>
+
+		<div ng-show="user!=null" ng-include="'views/header.view.html'"></div>
+		<div ng-view></div>
+		<div ng-show="user!=null" ng-include="'views/footer.view.html'"></div>
+		
+		<script src="js/all.min.js"></script>
+	</body>
+</html>

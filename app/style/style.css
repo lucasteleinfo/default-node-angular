@@ -1,0 +1,22 @@
+#header_secundary {
+  height: 20px; }
+
+#login {
+  margin-top: 10%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  #login #login_form {
+    max-width: 500px;
+    width: 100%; }
+
+#header .ui.menu {
+  margin: 0 auto !important;
+  border-radius: 0 !important; }
+  #header .ui.menu .header.item {
+    font-size: 50px;
+    padding: 15px; }
+
+/*# sourceMappingURL=style.css.map */
